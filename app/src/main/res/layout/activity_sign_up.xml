@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/ll1"
+        android:layout_margin="10dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_nan_account"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+        <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/full_name"/>
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/username"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp" android:maxLines="1" android:singleLine="true"
+            android:maxLength="50" android:inputType="text"/>
+
+        <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email"/>
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/useremail"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp" android:maxLines="1" android:singleLine="true"
+            android:maxLength="50" android:inputType="textEmailAddress"/>
+
+        <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/password"/>
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/userpassword"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp" android:maxLines="1" android:singleLine="true"
+            android:maxLength="50" android:inputType="textPassword"/>
+
+        <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/country"/>
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/usercountry"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp" android:maxLines="1" android:singleLine="true"
+            android:maxLength="50" android:inputType="textEmailAddress"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="+92"
+                android:textSize="25sp"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/userphone"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginLeft="5dp"
+                android:layout_marginRight="-4dp" android:maxLines="1" android:singleLine="true"
+                android:maxLength="50" android:inputType="phone"
+                />
+        </LinearLayout>
+
+        <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/genre"/>
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/usergenre"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp" android:maxLines="1" android:singleLine="true"
+            android:maxLength="50" android:inputType="textEmailAddress"/>
+
+        <RadioGroup android:orientation="horizontal" android:id="@+id/accounttype"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium">
+            <android.support.v7.widget.AppCompatRadioButton
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/grey_90" android:id="@+id/radio1"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:checked="true" android:text="@string/basic_account"/>
+
+            <View android:layout_width="@dimen/spacing_mlarge" android:layout_height="0dp"/>
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/grey_90" android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exclusive_account"/>
+        </RadioGroup>
+
+        <Button android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:id="@+id/register"
+            android:background="@drawable/btn_rounded"
+            android:padding="@dimen/activity_horizontal_margin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin" android:text="@string/create_account" android:backgroundTint="@color/colorPrimary"/>
+        <TextView android:textSize="15sp"
+            android:textStyle="bold" android:layout_gravity="center"
+            android:id="@+id/signIn1" android:padding="@dimen/activity_horizontal_margin2" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_margin="@dimen/activity_horizontal_margin2" android:text="@string/already_have_an_account"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

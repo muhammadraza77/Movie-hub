@@ -1,0 +1,55 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:id="@+id/ll">
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_gravity="right"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                android:id="@+id/star"
+                android:src="@drawable/ic_favorite"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textColor="#ffff"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/star"
+                android:id="@+id/text1"
+                android:text="Hello Muhammad,\nWelcome to Movie Hub"
+                />
+
+            <ImageView
+                android:layout_gravity="right"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_man"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

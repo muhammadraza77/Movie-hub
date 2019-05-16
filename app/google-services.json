@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "419589760765",
+    "firebase_url": "https://moviehub2-24a11.firebaseio.com",
+    "project_id": "moviehub2-24a11",
+    "storage_bucket": "moviehub2-24a11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419589760765:android:98c8c6353eb43dd3",
+        "android_client_info": {
+          "package_name": "com.example.muhammadrazavasnan.moviehub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419589760765-j34m02k0225cv3scq6fr9krukb46v1ec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muhammadrazavasnan.moviehub",
+            "certificate_hash": "dcbdd8caa5823db6cd4babb65a8d6a51ad56c98c"
+          }
+        },
+        {
+          "client_id": "419589760765-6aocrcl1sgtd1bhk5h7ui2444f895tlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj6UK5D-Y-Sh27ho1FC7P3LXEyIWERAzc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419589760765-6aocrcl1sgtd1bhk5h7ui2444f895tlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419589760765:android:b1f8fc9e3bd4744e",
+        "android_client_info": {
+          "package_name": "com.example.zayan.moviehub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419589760765-6aocrcl1sgtd1bhk5h7ui2444f895tlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj6UK5D-Y-Sh27ho1FC7P3LXEyIWERAzc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

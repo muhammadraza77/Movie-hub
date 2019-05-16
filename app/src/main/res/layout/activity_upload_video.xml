@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uploadVideo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/chooseFile"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_a_video"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="118dp" />
+
+        <ProgressBar
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:id="@+id/uploadProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/uploadButton"
+            android:layout_alignParentEnd="true"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="uploadFile"
+            android:text="@string/upload" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="@string/enter_name"
+            android:id="@+id/name"
+            android:layout_below="@+id/uploadButton"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/enter_description"
+            android:id="@+id/description"
+            android:layout_below="@+id/name"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/enter_thumbnail_url"
+            android:id="@+id/thumbnail"
+            android:layout_below="@+id/description"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/do_you_want_to_make_it_public_yes_no"
+            android:id="@+id/ques"
+            android:layout_below="@+id/thumbnail"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

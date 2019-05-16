@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MovieHub</string>
+    <string name="Lorem">MovieHub description is displayed here thanku bros</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="comment">Kieron Pollard Has become only 3rd batsman to score 9000 runs in Twenty-20(After Chris Gayle and Brendon McCullum). He has 260 wickets to go with it.</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+    <string name="sign_up_nan_account">Sign Up  an Account.</string>
+    <string name="full_name">Full Name</string>
+    <string name="title_activity_admin_panel">adminPanel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Admin Pael</string>
+    <string name="nav_header_subtitle">Movie Hub</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="country">Country</string>
+    <string name="genre">Genre</string>
+    <string name="basic_account">Basic Account</string>
+    <string name="exclusive_account">Exclusive Account</string>
+    <string name="create_account">Create account</string>
+    <string name="already_have_an_account">Already have an account ??</string>
+    <string name="choose_a_video">Choose a Video</string>
+    <string name="upload">Upload</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="enter_thumbnail_url">Enter Thumbnail URL</string>
+    <string name="do_you_want_to_make_it_public_yes_no">Do you want to make it public? (yes/no)</string>
+    <string name="video_title">Video Title</string>
+    <string name="sample_video_01">Sample Video -01</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="invite_a_friend">INVITE A FRIEND</string>
+    <string name="please_proceed_to_upload_a_video_to_our_hub">Please proceed to Upload a video to our Hub....</string>
+</resources>

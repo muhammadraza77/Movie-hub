@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vous avez déjà un compte ??</string>
+    <string name="Lorem">La description de MovieHub est affichée ici Thanku Bros</string>
+    <string name="basic_account">Compte de base</string>
+    <string name="btnRecordVideo"></string>
+    <string name="btnUploadToServer">Enregistrer une vidéo</string>
+    <string name="comment">Kieron Pollard est devenu le troisième batteur à marquer 9 000 points en vingt-vingt (d\'après Chris Gayle et Brendon McCullum). Il a 260 guichets pour aller avec elle.</string>
+    <string name="choose_a_video">Choisissez une vidéo</string>
+    <string name="country">Pays</string>
+    <string name="do_you_want_to_make_it_public_yes_no">Voulez-vous le rendre public? (Oui Non)</string>
+    <string name="email">Voulez-vous le rendre public? (Oui Non)</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="enter_code">Entrez le code</string>
+    <string name="enter_description">Entrez la description</string>
+    <string name="enter_name"></string>
+    <string name="enter_thumbnail_url">Entrez le nom</string>
+    <string name="exclusive_account">Compte exclusif</string>
+    <string name="full_name">Nom complet</string>
+    <string name="genre">Genre</string>
+    <string name="invite_a_friend">INVITE UN AMI</string>
+    <string name="please_proceed_to_upload_a_video_to_our_hub">Veuillez procéder au téléchargement d\'une vidéo sur notre hub ....</string>
+    <string name="sign_up_nan_account">Créer un compte.</string>
+    <string name="password">Mot de passe</string>
+    <string name="upload">Télécharger</string>
+</resources>

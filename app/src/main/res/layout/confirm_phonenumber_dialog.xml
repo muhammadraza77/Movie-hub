@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/white" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="220dp" android:layout_height="220dp" android:src="@drawable/img_number_verification"/>
+
+        <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" android:textStyle="bold" android:textColor="@color/grey_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Verify Your Number"/>
+        <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" android:gravity="center" android:layout_width="280dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_medium" android:text="Please enter Verification Code sent on Your Mobile to proceed..."/>
+
+
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_xlarge" android:layout_marginBottom="@dimen/spacing_large">
+
+
+            <android.support.design.widget.TextInputEditText android:id="@+id/ET" android:gravity="center" android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" android:textStyle="bold" android:textColor="@color/grey_90" android:layout_width="match_parent" android:layout_height="wrap_content"  android:hint="Code" android:maxLines="1" android:singleLine="true" android:inputType="phone">
+                <requestFocus/>
+
+            </android.support.design.widget.TextInputEditText>
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_rounded"
+            android:id="@+id/submit"
+            android:layout_width="200dp" android:layout_height="wrap_content" android:text="CONTINUE"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
